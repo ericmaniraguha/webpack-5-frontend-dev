@@ -37,3 +37,5 @@ npm run dev
 # babel conf. to enable all browsers to communicate with my App.
 
 npm i -D babel-loader @babel/core @babel/preset-env
+
+npm i webpack-bundle-analyzer

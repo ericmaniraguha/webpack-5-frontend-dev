@@ -1,5 +1,14 @@
+import axios from 'axios';
+
 function generateJoke() {
-  return 'This is for the webpack 5';
+  const config = {
+    headers: {
+      Accept: 'application/json',
+    },
+  };
+  axios.get('https://icanhazdadjoke.com', config).then((res) => {
+    document.getElementById('joke').innerHTML = res.data.joke;
+  });
 }
 
 export default generateJoke;

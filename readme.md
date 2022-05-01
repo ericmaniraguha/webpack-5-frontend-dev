@@ -33,3 +33,7 @@ npm run build
 # run the App on development after conf.(http://localhost:8080/)
 
 npm run dev
+
+# babel conf. to enable all browsers to communicate with my App.
+
+npm i -D babel-loader @babel/core @babel/preset-env

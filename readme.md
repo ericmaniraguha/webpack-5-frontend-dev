@@ -25,3 +25,11 @@ npm i -D webpack-cli
 npm i -D sass style-loader css-loader sass-loader
 
 npm i -D html-webpack-plugin
+
+# to run the App
+
+npm run build
+
+# run the App on development after conf.(http://localhost:8080/)
+
+npm run dev
